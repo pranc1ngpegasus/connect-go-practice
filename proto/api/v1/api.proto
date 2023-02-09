@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto.api.v1;
+
+option go_package = "github.com/Pranc1ngPegasus/connect-go-practice/proto/api/v1";
+
+service APIService {
+  rpc Greet(GreetRequest) returns (GreetResponse) {}
+}
+
+message GreetRequest {
+  string name = 1;
+}
+
+message GreetResponse {
+  string greeting = 1;
+}
