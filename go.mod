@@ -6,6 +6,7 @@ require (
 	github.com/Netflix/go-env v0.0.0-20220526054621-78278af1949d
 	github.com/bufbuild/buf v1.13.1
 	github.com/bufbuild/connect-go v1.4.1
+	github.com/bufbuild/connect-grpcreflect-go v1.0.0
 	github.com/google/wire v0.5.0
 	github.com/samber/lo v1.37.0
 	google.golang.org/protobuf v1.28.2-0.20220831092852-f930b1dc76e8
